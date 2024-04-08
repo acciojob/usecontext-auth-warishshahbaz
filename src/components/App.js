@@ -26,7 +26,10 @@ const Auth = () => {
     <div>
       <h2>User Authentication</h2>
       <p>
-        User is {authenticated ? "authenticated" : "you are not authenticated"}
+        User is{" "}
+        {authenticated
+          ? "You are now authenticated, you can proceed"
+          : "you are not authenticated"}
       </p>
       <label>
         <input
