@@ -28,16 +28,16 @@ const Auth = () => {
       <p>
         {authenticated
           ? "You are now authenticated, you can proceed"
-          : "you are not authenticated"}
+          : "You are not authenticated"}
       </p>
-      <label>
+      <div>
         <input
           type="checkbox"
           className="authText"
           onChange={toggleAuthenticated}
         />
-        You are now authenticated, you can proceed
-      </label>
+        <span> I'm not a robot</span>
+      </div>
     </div>
   );
 };
@@ -47,7 +47,6 @@ const App = () => {
   return (
     <AuthProvider>
       <div>
-        <h1>React Authentication App</h1>
         <Auth />
       </div>
     </AuthProvider>
