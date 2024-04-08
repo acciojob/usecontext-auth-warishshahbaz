@@ -36,7 +36,7 @@ const Auth = () => {
           className="authText"
           onChange={toggleAuthenticated}
         />
-        I'm not a robot
+        You are now authenticated, you can proceed
       </label>
     </div>
   );
