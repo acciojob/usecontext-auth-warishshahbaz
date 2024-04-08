@@ -24,7 +24,7 @@ const Auth = () => {
 
   return (
     <div>
-      <h2>User Authentication</h2>
+      <h2>Click on the checkbox to get authenticated</h2>
       <p>
         {authenticated
           ? "You are now authenticated, you can proceed"
