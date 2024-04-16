@@ -35,9 +35,7 @@ const Auth = () => {
           type="checkbox"
           className="authText"
           onChange={toggleAuthenticated}
-        >
-          You are now authenticated, you can proceed
-        </input>
+        />
         <span>I'm not a robot</span>
       </div>
     </div>
