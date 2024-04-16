@@ -28,7 +28,9 @@ const Auth = () => {
     <div>
       <p>
         Authentication Status:{" "}
-        {authenticated ? "Authenticated" : "Not Authenticated"}
+        {authenticated
+          ? "You are now authenticated, you can proceed"
+          : "you are not authenticated"}
       </p>
       <label>
         <input
