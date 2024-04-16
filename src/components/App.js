@@ -26,13 +26,14 @@ const Auth = () => {
 
   return (
     <div>
-      <h2>
+      <p>
         Authentication Status:{" "}
         {authenticated ? "Authenticated" : "Not Authenticated"}
-      </h2>
+      </p>
       <label>
         <input
           type="checkbox"
+          className="authText"
           onChange={handleCheckboxChange}
           checked={authenticated}
         />
